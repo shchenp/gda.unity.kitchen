@@ -291,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18414598330a0e34298d68fd66206f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _refrigerator: {fileID: 1712430464}
 --- !u!4 &965939891
 Transform:
   m_ObjectHideFlags: 0
@@ -594,6 +595,17 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c52c96702e2cda74db354744bbc07ac0, type: 3}
+--- !u!114 &1712430464 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3444702681332061947, guid: c52c96702e2cda74db354744bbc07ac0, type: 3}
+  m_PrefabInstance: {fileID: 1632732401}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f833d2e86b5ae47be67001ebd8433f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1903935031
 GameObject:
   m_ObjectHideFlags: 0
