@@ -5,7 +5,7 @@ public class Shelf : MonoBehaviour
 {
     // TODO: Вызовите событие ItemSpawned в необходимом месте
     
-    public Action ItemSpawned;
+    public Action<Shelf> ItemSpawned;
     public int ItemsCount { get; private set; }
 
     [SerializeField]
@@ -46,6 +46,8 @@ public class Shelf : MonoBehaviour
         }
         
         Instantiate(_items[ItemsCount++], _itemsRoot);
+        
+        ItemSpawned?.Invoke(this);
     }
     
     public void Fall()
